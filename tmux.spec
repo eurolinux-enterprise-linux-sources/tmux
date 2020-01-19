@@ -1,6 +1,6 @@
 Name:           tmux
 Version:        1.8
-Release:        2%{?dist}
+Release:        4%{?dist}
 Summary:        A terminal multiplexer
 
 Group:          Applications/System
@@ -49,6 +49,12 @@ fi
 %{_mandir}/man1/tmux.1.*
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 1.8-4
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.8-3
+- Mass rebuild 2013-12-27
+
 * Mon Jun 10 2013 Petr Šabata <contyk@redhat.com> - 1.8-2
 - Remove tmux from the shells file upon package removal (#972633)
 
